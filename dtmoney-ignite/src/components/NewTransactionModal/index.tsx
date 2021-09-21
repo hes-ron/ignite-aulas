@@ -9,11 +9,11 @@ interface NewtransactionModalProps{
 export function NewTransactionModal({ isOpen, onRequestClose }: NewtransactionModalProps) {
   return (
     <Modal
-          isOpen={isOpen}
-          onRequestClose={onRequestClose}
-        >
-           <h2>Cadastrar transação</h2>
-      </Modal>
+      isOpen={isOpen}
+      onRequestClose={onRequestClose}
+    >
+      <h2>Cadastrar transação</h2>
+    </Modal>
 
   )
 }
